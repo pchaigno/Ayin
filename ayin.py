@@ -6,7 +6,7 @@ import time
 
 if __name__ == "__main__":
 	parser = argparse.ArgumentParser(description="Send motion files to Dropbox")
-	parser.add_argument("filepath", help="File to the new file to send to Dropbox", type=str)
+	parser.add_argument("filepath", help="Path to the new file to send to Dropbox", type=str)
 	#parser.add_argument("changed_pixels", help="Changed pixels", type=str)
 	#parser.add_argument("noise_level", help="Noise level", type=str)
 	args = parser.parse_args()
